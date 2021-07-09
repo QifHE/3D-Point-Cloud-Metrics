@@ -34,7 +34,7 @@ Wu, Rundi, et al. "Pq-net: A generative part seq2seq network for 3d shapes." *Pr
 
 ## 环境
 
-对体素和网格文件的处理不需要特别的环境，只需要Python 3.x
+对体素和网格文件的处理不需要特别的环境，只需要Python 3.x和Anaconda 3
 
 在得到点云文件后需要单独创建一个虚拟环境适用于lantent_3d_points，满足
 
