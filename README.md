@@ -1,6 +1,6 @@
 # 3D-Point-Cloud-Metrics
 
-用于计算三个适用于三维点云的生成质量衡量标准Coverage (COV)，Minimum Matching Distance (MMD)，和Jensen-Shannon Divergence (JSD)。
+用于将体素和网格文件批量转换为点云，并能计算三个适用于三维点云的生成质量衡量标准Coverage (COV)，Minimum Matching Distance (MMD)，和Jensen-Shannon Divergence (JSD)。
 
 本计算基于论文《Learning Representations and Generative Models For 3D Point Clouds》，首次应用于对《PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes》中Shape Generation实验的复刻。参考了这个issue：https://github.com/ChrisWu1997/PQ-NET/issues/19
 
