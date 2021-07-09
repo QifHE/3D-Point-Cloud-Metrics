@@ -81,7 +81,7 @@ cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 python dataset_split.py
 ```
 3. h5体素文件批量转换为obj网格文件：
-需要指定文件夹路径
+需要指定h5文件要提取的key和文件夹路径
 ```
 cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 python voxel2mesh_from_h5_batch.py
