@@ -12,7 +12,7 @@
 
 ---
 
-Learning Representations and Generative Models For 3D Point Clouds
+**Learning Representations and Generative Models For 3D Point Clouds**
 
 Panos Achlioptas, Olga Diamanti, Ioannis Mitliagkas, Leonidas Guibas
 
@@ -22,7 +22,7 @@ Citation: Achlioptas, Panos, et al. "Learning representations and generative mod
 
 ---
 
-PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes
+**PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes**
 
 Rundi Wu, Yixin Zhuang, Kai Xu, Hao Zhang, Baoquan Chen
 
