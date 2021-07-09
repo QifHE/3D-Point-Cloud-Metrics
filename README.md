@@ -110,7 +110,7 @@ cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 sh move_files.sh
 ```
 7. 计算衡量标准：
-需要修改代码中的一些路径和文件名
+将所有点云文件归一化到半径为一的单位立体球中，然后计算COV、MMD、JSD。需要修改代码中的一些路径和文件名
 ```
 conda activate py27
 cd 根目录/latent_3d_points/notebooks/
@@ -119,3 +119,5 @@ python compute_evaluation_metrics.py
 ## 其他文件
 visualization_h5_batch.py
 可以批量可视化h5体素文件，基于https://github.com/ChrisWu1997/PQ-NET/issues/7 修改
+mesh2pc_batch_normalized.py
+在把体素转换成点云的同时进行归一化
