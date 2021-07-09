@@ -1,5 +1,11 @@
 # 3D-Point-Cloud-Metrics
 
+<p float="left">
+    <img src="https://user-images.githubusercontent.com/34999814/125043661-be445980-e0cd-11eb-8805-5ef5bbed76b6.png" height="250">
+    <img src="https://user-images.githubusercontent.com/34999814/125043824-edf36180-e0cd-11eb-8862-1af57c0557c7.png" height="250">
+    <img src="https://user-images.githubusercontent.com/34999814/125044052-2b57ef00-e0ce-11eb-8d8b-f9cec3a39fc5.png" height="250">
+</p>
+
 用于将体素和网格文件批量转换为点云，并能计算三个适用于三维点云的生成质量衡量标准Coverage (COV)，Minimum Matching Distance (MMD)，和Jensen-Shannon Divergence (JSD)。
 
 本计算基于论文《Learning Representations and Generative Models For 3D Point Clouds》，首次应用于对《PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes》中Shape Generation实验的复刻。参考了这个issue：https://github.com/ChrisWu1997/PQ-NET/issues/19
@@ -72,19 +78,19 @@ python open_h5.py
 cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 python dataset_split.py
 ```
-3. h5体素文件批量转换为obj网格文件
+3. h5体素文件批量转换为obj网格文件：
 需要指定文件夹路径
 ```
 cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 python voxel2mesh_from_h5_batch.py
 ```
-4. obj网格文件批量转换为ply点云文件
+4. obj网格文件批量转换为ply点云文件：
 需要指定文件夹路径和文件名
 ```
 cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 python mesh2pc_batch.py
 ```
-5. 处理latent_3d_points数据储存
+5. 处理latent_3d_points数据储存：
 ```
 cd 根目录/3D-Point-Cloud-Metrics/
 mkdir data
@@ -97,13 +103,13 @@ mkdir .......
 mkdir .......
 ```
 
-6. 移动数据到latent_3d_points
+6. 移动数据到latent_3d_points：
 需要自己修改代码中的路径
 ```
 cd 根目录/3D-Point-Cloud-Metrics/exp_metrics/
 sh move_files.sh
 ```
-7. 计算衡量标准
+7. 计算衡量标准：
 需要修改代码中的一些路径和文件名
 ```
 conda activate py27
