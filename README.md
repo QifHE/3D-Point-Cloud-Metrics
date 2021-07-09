@@ -55,6 +55,8 @@ conda create --override-channels -c defaults -n py27 python=2.7
 ```
 git clone https://github.com/optas/latent_3d_points.git
 ```
+需要安装lantent_3d_points进行其他安装步骤，其中/latent_3d_points/external/structural_losses/makefile的修改需要根据实际CUDA版本、路径以及tensorflow库路径等进行修改，参考这个issue：https://github.com/optas/latent_3d_points/issues/21
+
 下载需要使用的代码：
 ```
 git clone https://github.com/Mistral-Twirl/3D-Point-Cloud-Metrics.git
